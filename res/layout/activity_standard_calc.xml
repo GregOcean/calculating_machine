@@ -1,0 +1,310 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stxml"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    
+    android:orientation="vertical" 
+    android:background="@drawable/backgroundimg">
+
+    <Button
+        android:id="@+id/changemodetopro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ChangeModeToPro" 
+        />
+
+    <EditText
+        android:id="@+id/editTextOfSt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:inputType="textMultiLine"
+        android:digits="1234567890.+-*/%\n()">
+
+	<requestFocus />
+    </EditText>
+       
+    
+   <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="4dip" 
+        android:layout_weight="10">
+        
+        
+        
+        <TableRow
+        android:id="@+id/row0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_margin="4dip">
+        
+        <Button
+        android:id="@+id/CE"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/CE" />
+
+        <Button
+        android:id="@+id/backspace"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/BackSpace" />
+            
+        <Button
+        android:id="@+id/previousX"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/pre" />
+        
+        <Button
+        android:id="@+id/nextX"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/next" />
+        
+        <Button
+        android:id="@+id/ans"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/Ans" />
+        
+        
+     	    
+        </TableRow>
+        
+        <TableRow
+        android:id="@+id/row1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_margin="4dip">
+        
+             <Button
+        android:id="@+id/sin"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/sin" />
+             
+              <Button
+        android:id="@+id/cos"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/cos" />
+              
+               <Button
+        android:id="@+id/tan"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/tan" />
+               
+        <Button
+        android:id="@+id/leftquote"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/LeftQuote" />
+        
+        <Button
+        android:id="@+id/rightquote"
+        android:layout_width="25dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/RightQuote" />
+        
+        </TableRow>
+        
+        
+        <TableRow
+        android:id="@+id/row2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="4dip"
+        android:layout_weight="1">
+        
+        <Button
+        android:id="@+id/seven"
+        android:layout_width="20dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/SevenName" 
+        android:background="@drawable/button_style"/>
+            
+        <Button
+        android:id="@+id/eight"
+        android:layout_width="20dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/EightName" 
+        android:background="@drawable/button_style"/>
+			
+        <Button
+        android:id="@+id/nine"
+        android:layout_width="20dip"
+        android:layout_height="fill_parent"
+  		android:layout_weight="1"
+        android:text="@string/NineName" 
+        android:background="@drawable/button_style"/>
+            
+    	<Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/PlusName" />
+    		
+    	<Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:text="@string/MinusName" />
+    	
+        </TableRow>
+   
+        <TableRow
+        android:id="@+id/row3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_margin="4dip">
+    		
+        <Button
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:text="@string/FourName" 
+		android:background="@drawable/button_style"/>
+            
+        <Button
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+	    android:text="@string/FiveName" 
+	    android:background="@drawable/button_style"/>
+
+    	<Button
+        android:id="@+id/six"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:text="@string/SixName" 
+		android:background="@drawable/button_style"/>
+    	
+    	<Button
+        android:id="@+id/multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/MultiplyName" />
+    	<Button
+        android:id="@+id/divide"
+        android:layout_width="20dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+ 	    android:text="@string/DivideName" />
+    	</TableRow>
+    
+        
+        <TableRow
+        android:id="@+id/row4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_margin="4dip">
+    	
+        <Button
+        android:id="@+id/one"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/OneName" 
+        android:background="@drawable/button_style"/>
+             
+        <Button
+        android:id="@+id/two"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/TwoName" 
+        android:background="@drawable/button_style"/>
+
+    
+
+    	<Button
+        android:id="@+id/three"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/ThreeName" 
+        android:background="@drawable/button_style"/>
+    
+    	<Button
+       	android:id="@+id/remainder"
+       	android:layout_width="0dip"
+      	android:layout_height="fill_parent"
+		android:layout_weight="1"
+       	android:text="@string/RemainderName" />
+    	
+   		<Button
+        android:id="@+id/reciprocal"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+		
+        android:text="@string/ReciprocalName" />
+    
+    	</TableRow>
+    	
+      	<TableRow
+      	    android:id="@+id/row5"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="fill_parent"
+      	    android:layout_weight="1" 
+      	    android:layout_margin="4dip">
+
+      	    <Button
+      	        android:id="@+id/zero"
+      	        android:layout_width="0dp"
+      	        android:layout_height="fill_parent"
+      	        android:layout_weight="1"
+      	        android:text="@string/ZeroName" 
+      	        android:background="@drawable/button_style"/>
+
+      	    <Button
+      	        android:id="@+id/dot"
+      	        android:layout_width="0dp"
+      	        android:layout_height="fill_parent"
+      	        android:layout_weight="1"
+      	        android:text="@string/DotName" />
+
+      	    <Button
+      	        android:id="@+id/equal"
+      	        android:layout_width="0dp"
+      	        android:layout_height="fill_parent"
+      	        android:layout_weight="2"
+      	        android:text="@string/EqualName" />
+      	    
+      	     <Button
+        android:id="@+id/root"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+		android:layout_weight="1"
+        android:text="@string/root" />
+      	</TableRow>
+  
+	</TableLayout>
+</LinearLayout>
